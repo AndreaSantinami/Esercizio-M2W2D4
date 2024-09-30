@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="utenti">
+        <h3>UTENTI</h3>
+        <div id="nome_utenti">
+          
+        </div>
+    </div>
+
+       <!-- ---------------------------  -->
+
+    <div class="carrello">
+        <h3>CARRELLO</h3>
+        <div>
+            <input id="input_prezzo" type="text">
+            <button onclick="calcola()">Aggiungi</button>
+
+        </div>
+        <div id="account">
+            <p>scegli account</p>
+            
+        </div>
+        <div id="dati">
+            <p id="NoUt">Nome utente : </p>
+            <p id="CosCar">Costo Carrello : </p>
+            <p id="CosSpe">Costo Spedizione : </p>
+            <p id="tot">Totale : </p>
+        </div>
+
+       <!-- ---------------------------  -->
+
+    </div>
+    <div class="ambassador">
+        <h3>AMBASSADOR</h3>
+        <div id="nome_ambassador"></div>
+    </div>
+</body>
+
+</html>
+<script type="module" src="javascript/costanti.js"></script>
+<script type="module" src="javascript/utenti.js"></script>
+<script type="module" src="javascript/ambassador.js"></script>
+<script  src="javascript/costo_carrello.js"></script>
+<script type="module" src="javascript/scegli_account.js"></script>
+</html>
